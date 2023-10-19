@@ -23,9 +23,9 @@ git clone https://github.com/Allianaab2m/judis
 Prepare the `.env` file.
 
 ```txt:.env
-DISCORD_TOKEN=[YOUR BOT TOKEN].
-BOT_ID=[YOUR BOT USER ID].
-OWNER_ID=[YOUR USER ID].
+DISCORD_TOKEN=[YOUR BOT TOKEN]
+BOT_ID=[YOUR BOT USER ID]
+OWNER_ID=[YOUR USER ID]
 ```
 
 ```sh
@@ -41,7 +41,7 @@ The following is an example of a test case.
   {
     "in": "3 5",
     "out": "Odd"
-  },.
+  },
   {
     "in": "6 10",
     "out": "Even"
