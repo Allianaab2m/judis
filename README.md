@@ -53,3 +53,7 @@ The following is an example of a test case.
 ]
 
 ```
+
+## Usage
+
+`!judge [question number]` followed by a new line and a code block specifying the C language.
