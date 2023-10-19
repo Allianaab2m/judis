@@ -187,39 +187,3 @@ client.on('messageCreate', async (m) => {
 })
 
 client.login(Deno.env.get('DISCORD_TOKEN'))
-
-// const { fileId } = await writeFileTmp(`
-// #include <stdio.h>
-// #include <string.h> // 今回の問題では使います
-
-// int main(void) {
-//   char str[100];
-//   int a, b;
-//   scanf("%s", str);
-//   scanf("%d", &a);
-//   scanf("%d", &b);
-
-//   if (strcmp(str, "add") == 0) {
-//     printf("%d", a + b);
-//   } else if (strcmp(str, "minus") == 0) {
-//     printf("%d", a - b);
-//   } else {
-//     printf("error");
-//   }
-
-//   return 0;
-// }
-// `)
-
-// try {
-//   await compile(fileId)
-// } catch (e) {
-//   if (e instanceof Error) {
-//     if (e.message === 'Compile timeout') {
-//     }
-//     console.error(e.message)
-//     await deleteFileTmp(`${fileId}.c`)
-//     Deno.exit(1)
-//   }
-// }
-// console.log(await exec(fileId, 'add 2 5'))
