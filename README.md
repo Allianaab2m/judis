@@ -1,5 +1,7 @@
 # Judis
 
+[日本語](./README_ja.md)
+
 A Discord Bot that judges C code submitted to DM to see if the output follows the test case.
 
 ## !!! CAUTION !!!

@@ -1,5 +1,7 @@
 # Judis
 
+[English](./README.md)
+
 DMに提出されたC言語のコードをテストケースに沿った出力がされているかジャッジするDiscord Bot
 
 ## !!! CAUTION !!!
