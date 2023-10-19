@@ -43,9 +43,6 @@ client.on('messageCreate', async (m) => {
 
       const [code, input] = extractCodeBlock(codeBlock[0])
 
-      console.log(code)
-      console.log(input)
-
       const { fileId } = await writeFileTmp(code)
 
       try {
@@ -141,8 +138,6 @@ client.on('messageCreate', async (m) => {
           const OWNER_ID = Deno.env.get('OWNER_ID')
           if (OWNER_ID) {
             const alliana = await client.users.fetch(OWNER_ID)
-            const user = await m.author.fetch()
-            console.log(user)
             await alliana.send(
               `${
                 m.author.username
