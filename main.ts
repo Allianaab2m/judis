@@ -72,7 +72,7 @@ client.on('messageCreate', async (m) => {
       }
       await m.reply(surroundCodeBlock(out, 'sh'))
       return
-    } else if (m.content.startsWith('!judge')) {
+    } else if (m.content.startsWith('!judge') || m.content.startsWith('!j')) {
       const [_command, questionId] = m.content.split(/\s+/, 2)
       const code = m.content
         .substring(_command.length + questionId.length + 2)
